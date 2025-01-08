@@ -7,7 +7,7 @@ import org.springframework.context.annotation.Configuration;
 import java.util.Scanner;
 
 @Configuration
-@ComponentScan
+@ComponentScan("se.lexicon.data_access")
 public class ComponentScanConfig {
     @Bean
     public Scanner scanner(){

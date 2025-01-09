@@ -1,4 +1,4 @@
-package se.lexicon.data_access;
+package se.lexicon.util;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

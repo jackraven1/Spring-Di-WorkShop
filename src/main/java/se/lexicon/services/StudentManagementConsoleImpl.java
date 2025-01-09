@@ -1,7 +1,9 @@
-package se.lexicon.data_access;
+package se.lexicon.services;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;
+import se.lexicon.data_access.StudentDao;
+import se.lexicon.util.UserInputService;
 import se.lexicon.models.Student;
 
 import java.util.List;

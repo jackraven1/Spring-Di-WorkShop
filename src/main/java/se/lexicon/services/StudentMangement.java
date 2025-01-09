@@ -1,4 +1,4 @@
-package se.lexicon.data_access;
+package se.lexicon.services;
 
 import se.lexicon.models.Student;
 

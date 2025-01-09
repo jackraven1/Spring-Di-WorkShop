@@ -13,5 +13,13 @@ public class Main {
         UserInputService userInputService =context.getBean(UserInputService.class);
         StudentMangement studentManagement = context.getBean(StudentMangement.class);
 
+
+        var jack =studentManagement.create();
+        studentManagement.save(jack);
+        System.out.println(studentManagement.findAll());
+
+
+
+
     }
 }

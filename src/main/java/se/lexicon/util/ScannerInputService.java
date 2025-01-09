@@ -22,6 +22,8 @@ public class ScannerInputService implements UserInputService {
     @Override
     public int getInt() {
         System.out.println("Enter a number: ");
-        return scanner.nextInt();
+        int number = scanner.nextInt();
+        scanner.nextLine();
+        return number;
     }
 }

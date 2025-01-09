@@ -26,7 +26,7 @@ public class StudentManagementConsoleImpl implements StudentMangement {
     }
 
     @Override
-    public Student Save(Student student) {
+    public Student save(Student student) {
        return studentDao.save(student);
     }
 

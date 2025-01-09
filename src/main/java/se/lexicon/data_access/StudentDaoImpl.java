@@ -3,10 +3,11 @@ package se.lexicon.data_access;
 import org.springframework.stereotype.Component;
 import se.lexicon.models.Student;
 
+import java.util.ArrayList;
 import java.util.List;
 @Component
 public class StudentDaoImpl implements StudentDao{
-    private List<Student> students;
+    private final List<Student> students = new ArrayList<Student>();
     @Override
     public Student save(Student student) {
         students.add(student);
@@ -28,4 +29,5 @@ public class StudentDaoImpl implements StudentDao{
     public void delete(int id) {
         students.removeIf(student -> student.getId() == id);
     }
+
 }

@@ -6,7 +6,7 @@ import java.util.List;
 
 public interface StudentMangement {
     Student create();
-    Student Save(Student student);
+    Student save(Student student);
     Student find(int id);
     Student remove(int id);
     List<Student> findAll();
